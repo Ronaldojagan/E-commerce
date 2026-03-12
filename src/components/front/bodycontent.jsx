@@ -30,7 +30,7 @@ const BodyContent = () => {
 
       <div className="bannertext">
         <p className="backgroundtext" data-aos="zoom-in">
-          Delicious
+          Deliciousss
         </p>
 
         <p className="backgroundtext1" data-aos="zoom-in">
