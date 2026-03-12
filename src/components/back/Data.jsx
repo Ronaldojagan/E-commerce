@@ -1,7 +1,7 @@
 const ProductItems =[
     {
       id: 1,
-      Title:"6miniBurger+6 PackKraft Beer",
+      title:"6miniBurger+6 PackKraft Beer",
       price: 22.00,
       name: "MEALS",
       Img:"https://eatsy.bold-themes.com/burger/wp-content/uploads/sites/2/2018/09/product_10-300x300.jpg"
