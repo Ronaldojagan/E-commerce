@@ -1,13 +1,13 @@
 import React from 'react';
-import Redwave from '../../images/red_top_wave_01.png'
-import Image from '../../images/hero_footer.jpg'
-import Image3 from '../../images/footer_logo.png'
-import Image4 from '../../images/inner_instagram_01.jpg'
-import Image5 from '../../images/inner_instagram_02.jpg'
-import Image6 from '../../images/inner_instagram_03.jpg'
-import Image7 from '../../images/inner_instagram_04.jpg'
-import Image8 from '../../images/inner_instagram_05.jpg'
-import Image9 from '../../images/inner_instagram_06.jpg'
+import Redwave from '../../assets/images/red_top_wave_01.png'
+import Image from '../../assets/images/hero_footer.jpg'
+import Image3 from '../../assets/images/footer_logo.png'
+import Image4 from '../../assets/images/inner_instagram_01.jpg'
+import Image5 from '../../assets/images/inner_instagram_02.jpg'
+import Image6 from '../../assets/images/inner_instagram_03.jpg'
+import Image7 from '../../assets/images/inner_instagram_04.jpg'
+import Image8 from '../../assets/images/inner_instagram_05.jpg'
+import Image9 from '../../assets/images/inner_instagram_06.jpg'
 import { FaFacebook } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';

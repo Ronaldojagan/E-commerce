@@ -1,9 +1,7 @@
-import React from 'react';
-import "./shop.css";
-import ProductItems from '../../back/Data';
-import Footer from '../footer'
-import Image from '../../../images/featured_image_shop.jpg'
-import Image2 from '../../../images/cream_bottom_wave_01.png'
+import "../assets/css/shop.css";
+import ProductItems from '../components/back/Data';
+import Image from '../assets/images/featured_image_shop.jpg'
+import Image2 from '../assets/images/cream_bottom_wave_01.png'
 import { IoSearch } from "react-icons/io5";
 
 const products =({handleAddProduct}) => {
@@ -49,7 +47,6 @@ const products =({handleAddProduct}) => {
                     ))}
                 </div>   
         </div>
-        <Footer className='footer'/>
         </>   
  )  
 };

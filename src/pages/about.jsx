@@ -1,16 +1,14 @@
-import React from 'react'
-import Footer from '../../front/footer'
-import '../about/about.css'
-import Bgimage from '../../../images/hero_about_us.jpg'
-import Wave from '../../../images/red_bottom_wave_01.png'
-import Icon1 from '../../../images/PngItem_1746259.png'
-import Icon2 from '../../../images/package.jpg'
-import Icon3 from '../../../images/deleveryicon.jpg'
-import Wave2 from '../../../images/red_top_wave_01.png'
-import Lady from '../../../images/inner_image_02.jpg'
-import Patty from '../../../images/inner_image_03.jpg'
-import Burger from '../../../images/inner_image_04.jpg'
-import Stayhome from '../../../images/stay_home.png'
+import '../assets/css/about.css'
+import Bgimage from '../assets/images/hero_about_us.jpg'
+import Wave from '../assets/images/red_bottom_wave_01.png'
+import Icon1 from '../assets/images/PngItem_1746259.png'
+import Icon2 from '../assets/images/package.jpg'
+import Icon3 from '../assets/images/deleveryicon.jpg'
+import Wave2 from '../assets/images/red_top_wave_01.png'
+import Lady from '../assets/images/inner_image_02.jpg'
+import Patty from '../assets/images/inner_image_03.jpg'
+import Burger from '../assets/images/inner_image_04.jpg'
+import Stayhome from '../assets/images/stay_home.png'
 import { Container, Row, Col } from 'reactstrap';
 const about = () => {
   return (
@@ -131,7 +129,6 @@ const about = () => {
             </div>
              
              </div>
-             <Footer className="footer" />
             
         </div>
        

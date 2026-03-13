@@ -1,8 +1,7 @@
 import React from 'react'
-import '../cart/cart.css'
-import Image from '../../../images/featured_image_shop.jpg'
-import Image2 from '../../../images/red_bottom_wave_01.png'
-import Footer from '../footer'
+import '../assets/css/cart.css'
+import Image from '../assets/images/featured_image_shop.jpg'
+import Image2 from '../assets/images/red_bottom_wave_01.png'
 import { Link } from 'react-router-dom'
 import { Container,Col,Row} from 'reactstrap';
 const cart = ({cartItems,
@@ -85,8 +84,6 @@ const cart = ({cartItems,
                 
             </div> 
         </div>
-       
-    <Footer className="footer" />
     </div>
 
   )

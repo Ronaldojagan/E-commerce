@@ -28,9 +28,6 @@ const bodycontent7 = () => {
             <span className='content7txt4'>"Awesome service and <br></br> even better burgers!"</span>
             <img className='review4' src={Image5} width='500px' alt='1'></img>
         </div> 
-      
-        
-        
     </div>
   )
 }

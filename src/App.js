@@ -1,8 +1,8 @@
 import React,{ useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/front/header/header';
-import AppRoutes from './components/front/header/Routes/AppRoutes';
+import Header from './components/layouts/header';
+import AppRoutes from './Routes/AppRoutes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 

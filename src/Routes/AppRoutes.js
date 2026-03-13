@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from '../home/home';
-import About from '../../about/about';
-import Products from '../../shop/shop';
 import { Route, Routes } from 'react-router-dom'
-import Cart from '../../cart/cart';
+import Home from '../pages/home';
+import About from '../pages/about';
+import Products from '../pages/shop';
+import Cart from '../pages/cart';
 
 const AppRoutes = ({
   cartItems,
@@ -22,7 +22,6 @@ const AppRoutes = ({
           handleRemoveProduct={handleRemoveProduct}
           handleCartClearance={handleCartClearance}
         />} />
-
       </Routes>
     </div>
   )
