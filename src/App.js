@@ -2,6 +2,7 @@ import React,{ useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/layouts/header';
+import Footer from './components/layouts/footer';
 import AppRoutes from './Routes/AppRoutes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AOS from 'aos';
@@ -55,6 +56,7 @@ const App = () => {
         handleRemoveProduct={handleRemoveProduct}
         handleCartClearance={handleCartClearance}
       />
+      <Footer  />
     </Router>
   </div>
     </>

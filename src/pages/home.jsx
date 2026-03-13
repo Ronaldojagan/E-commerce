@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import '../assets/css/home.css'
 import Carousel from "react-bootstrap/Carousel";
 
 // Static decoration images
@@ -24,16 +25,19 @@ import Review4 from "../assets/images/reviews_04.png";
 
 // Services
 import useFetch from "../service/useFetch";
-
-import {getFeaturedProducts,getCarouselProducts} from "../service/productService";
+import { getBanners } from "../service/bannerService";
+import { getReviews } from "../service/reviewService";
+import { getSettings } from "../service/settingService";
+import {
+  getFeaturedProducts,
+  getCarouselProducts,
+} from "../service/productService";
 
 const Home = ({ handleAddProduct }) => {
   // Fetch everything from database
   const { data: banners, loading: loadingBanners } = useFetch(getBanners);
-  const { data: featured, loading: loadingFeatured } =
-    useFetch(getFeaturedProducts);
-  const { data: carousel, loading: loadingCarousel } =
-    useFetch(getCarouselProducts);
+  const { data: featured, loading: loadingFeatured } = useFetch(getFeaturedProducts);
+  const { data: carousel, loading: loadingCarousel } = useFetch(getCarouselProducts);
   const { data: reviews, loading: loadingReviews } = useFetch(getReviews);
   const { data: settings, loading: loadingSettings } = useFetch(getSettings);
 
